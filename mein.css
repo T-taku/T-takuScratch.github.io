@@ -1,0 +1,50 @@
+* {
+	font-family:Courier New, monospace;
+}
+html {
+	background-color:white;
+	color:black;
+	margin:0;
+	padding:0;
+	font-size:18px;
+}
+a {
+	color:inherit;
+	text-decoration:underline;
+	background-color:inherit;
+}
+div#header {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:#000080;
+	height:50px;
+	text-align:center;
+}
+div#header a {
+	display:inline-block;
+	transition:250ms;
+	height:auto;
+	width:auto;
+	font-size:18px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	padding:15px 1em 15px 1em;
+}
+div#header a:hover {
+	background-color:#0000ff;
+	cursor:pointer;
+}
+sup.note div{
+	display:none;
+	border:2px solid white;
+	background-color:#111;
+	position:absolute;
+	width:auto;
+}
+sup.note:hover div {
+	display:inline;
+	z-index:100;
+}
